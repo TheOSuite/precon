@@ -9,7 +9,7 @@ pip install tor
 ```
 ## Usage
 ```
-git clone https://github.com/TheOSuite/precon.git
+git clone https://github.com/TheOSuite/recon.git
 
 cd recon
 
@@ -30,6 +30,9 @@ chmod +x recon.sh
 
 # Stealth mode
 ./recon.sh example.com --stealth
+
+# Complete Example
+tor & ./recon.sh example.com 800 --full --stealth
 ```
 Output will be saved in a folder and include live hosts.
 
